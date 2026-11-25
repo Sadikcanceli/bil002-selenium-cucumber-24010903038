@@ -1,7 +1,5 @@
 # BIL 002 — Kısım 2: Selenium + Cucumber ile Web Otomasyonu
 
-[![UI Testleri](https://github.com/Sadikcanceli/bil002-selenium-cucumber-24010903038/actions/workflows/ui-testleri.yml/badge.svg)](https://github.com/Sadikcanceli/bil002-selenium-cucumber-24010903038/actions/workflows/ui-testleri.yml)
-
 Sakarya Uygulamalı Bilimler Üniversitesi · BIL 002 Yazılım Doğrulama ve Sınama dönem projesi, Kısım 2.
 Kısım 1 (BankAccount API testleri): https://github.com/Sadikcanceli/bil002-bankaccount-24010903038
 
@@ -44,7 +42,6 @@ mvn test -Dheadless=false                  # tarayıcıyı görerek çalıştır
 - Chrome/Edge/Firefox'tan biri kurulu olmalıdır; sürücüyü indirmeye gerek yoktur.
 - HTML raporu: `target/cucumber-report.html` (son koşunun kopyası: [`docs/rapor/cucumber-report.html`](docs/rapor/cucumber-report.html))
 - Başarısız senaryoların ekran görüntüleri: `target/ekran-goruntuleri/` ve HTML raporun içinde.
-- GitHub Actions her push'ta senaryoları headless Chrome ile çalıştırır ve raporu artifact olarak yükler.
 
 ## Proje yapısı
 
